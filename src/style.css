@@ -81,7 +81,7 @@ main {
     grid-template-columns: auto auto auto auto;
     justify-items: center;
     text-align: center;
-    row-gap: 20px;
+    row-gap: 30px;
 }
 
 main a.div-texto-especifico {
@@ -104,6 +104,11 @@ main a.div-texto-especifico:hover {
     letter-spacing: 1px;
 }
 
+
+
+
+/* section biografia */
+
 #img-atras-perfil {
     background: linear-gradient(134.01deg, #3BF686 40.75%, #4CA9FF 90.52%) !important;
     width: 100px;
@@ -123,14 +128,17 @@ main a.div-texto-especifico:hover {
     background-size: contain;
 }
 
+#section-biografia {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column: 1 / span 4;
+    text-align: start;
+}
+
 #section-biografia article {
     grid-column: 2 / span 4;
     padding: 10px;
     line-height: 18px;
-}
-
-#section-biografia article p {
-    
 }
 
 #section-biografia article h3 {
@@ -138,9 +146,91 @@ main a.div-texto-especifico:hover {
     font-weight: 700;
 }
 
-#section-biografia {
+
+
+
+/* section sobre mim */
+
+#section-sobre-mim {
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-column: 1 / span 4;
     text-align: start;
+    margin-top: 50px;
 }
+
+#section-sobre-mim div h3 {
+    margin: 0;
+    font-weight: 700;
+}
+
+#section-sobre-mim .card {
+    width: 150px;
+    height: 220px;
+    background: #323443;
+    margin: 15px;
+}
+
+#section-sobre-mim .card table {
+    font-size: 7px;
+    border-collapse: separate;
+}
+
+#section-sobre-mim .card table td {
+    padding: 4px;
+}
+
+#section-sobre-mim .div-img-card {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: linear-gradient(134.01deg, #3BF686 40.75%, #4CA9FF 90.52%) !important;;
+    margin: -25px auto 5px;
+}
+
+
+#section-sobre-mim .div-img-card div {
+    width: 22px;
+    height: 22px;
+    padding: 1px;
+    border-radius: 50%;
+    background-clip: content-box;
+    background-size: cover;
+}
+
+#section-sobre-mim .div-img-card #img-javascript-file {
+    background-image: url(../public/images/Tech-Stack-Logos/javascript-file-svgrepo-com.svg);
+}
+
+#section-sobre-mim .div-img-card #img-trabalho-voluntairo {
+    background-image: url(../public/images/Tech-Stack-Logos/chat-emoji-svgrepo-com.svg);
+}
+
+#section-sobre-mim #h4-trabalho-voluntario {
+    font-size: 16px;
+}
+
+#card-trabalho-voluntario p {
+    font-size: 7px;
+}
+
+#card-trabalho-voluntario {
+    grid-column: 4 / 5;
+    text-align: center;
+}
+
+#card-stacks {
+    grid-column: 3 / 4;
+    text-align: center;
+}
+
+#card-stacks table {
+    margin-left: -16px;
+}
+
+#texto-sobre-mim {
+    padding: 20px;
+    width: 180px;
+}
+
+
