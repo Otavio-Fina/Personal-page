@@ -1,13 +1,15 @@
 html, body#body {
     width: 100%;
-    height: 100%;
     background-color: #272727; /* o id foi colocado no body pois o bootstrap estava colocando outro background por cima deste*/
-    overflow: hidden;
+    padding: 10px;
 }
 
 * {
     font-family: 'Sora', sans-serif;
-    font-weight: 500;
+    font-weight: 400;
+    color: #D5D5D5;
+    letter-spacing: 0.014em;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .font-cor-gradient-verde {
@@ -17,6 +19,27 @@ html, body#body {
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     font-weight: 700;
+}
+
+.div-gradient-especifico {
+    background: linear-gradient(134.01deg, #3BF686 40.75%, #4CA9FF 90.52%) !important;
+    -webkit-background-clip: text !important;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: #D5D5D5;
+    -moz-text-fill-color: #d5d5d5;
+    font-weight: 700;
+}
+
+.div-texto-especifico {
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.font-inter {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    
 }
 
 
@@ -49,4 +72,75 @@ html, body#body {
 
 #navbarSupportedContent {
     flex-grow: 0; /* libera o 'float:left' */
+}
+
+/*           MAIN CONTENT               */
+
+main {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-items: center;
+    text-align: center;
+    row-gap: 20px;
+}
+
+main a.div-texto-especifico {
+    transition: font-size 0.1s ease-in-out, border-bottom 0.1s ease-in-out;
+    border-bottom: 1px solid #4CA9FF;
+}
+
+main a.div-texto-especifico:hover {
+    font-size: 11px;
+    border-bottom: 0 solid transparent;
+}
+
+#h1 {
+    width: 75%;
+    grid-column: 1 / span 4;
+    font-size: 2em;
+    line-height: 129%;
+    padding: 15px;
+
+    letter-spacing: 1px;
+}
+
+#img-atras-perfil {
+    background: linear-gradient(134.01deg, #3BF686 40.75%, #4CA9FF 90.52%) !important;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    grid-column: 1 / 2;
+    margin-top: 5px;
+}
+
+#img-perfil {
+    width: 100px;
+    height: 100px;
+    padding: 2px;
+    border-radius: 50%;
+    background-image: url(../public/images/picofme.png);
+    background-clip: content-box;
+    background-size: contain;
+}
+
+#section-biografia article {
+    grid-column: 2 / span 4;
+    padding: 10px;
+    line-height: 18px;
+}
+
+#section-biografia article p {
+    
+}
+
+#section-biografia article h3 {
+    margin: 0;
+    font-weight: 700;
+}
+
+#section-biografia {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column: 1 / span 4;
+    text-align: start;
 }
