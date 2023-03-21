@@ -2,12 +2,13 @@
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
     "noImplicitAny": true,
-    "module": "es6",
     "target": "es5",
     "allowJs": true,
-    "sourceMap": true
+    "sourceMap": true,
+    "jsx": "react",
+    "module": "commonjs",
   },
-  "files": ["src/index.ts"],
+  "files": ["src/index.tsx"],
   "include": ["src/**/*"],
   "exclude": ["node_modules", "**/*.spec.ts"]
 }

@@ -235,3 +235,54 @@ main a.div-texto-especifico:hover {
 }
 
 
+
+
+
+/*           MEUS PROJETOS            */
+
+#h3-meus-projetos {
+    grid-column: 1 / span 4;
+    margin-bottom: -170px;
+}
+
+#meus-projetos {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column: 1 / span 4;
+    text-align: start;
+    margin-top: 50px;
+}
+
+#meus-projetos div h3 {
+    margin: 0;
+    font-weight: 700;
+}
+
+#meus-projetos .card {
+    width: 250px;
+    height: 125px;
+    background: #323443;
+    margin: 15px;
+}
+
+#meus-projetos .card-body {
+    padding: 0;
+}
+
+.container-meus-projetos {
+    grid-column: 1 / span 4;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.p-meus-projetos{
+    width: 250px;
+}
+
+#primeiro-projeto-destaque, #segundo-projeto-destaque {
+    background-color: #272727;
+    width: 220px;
+    height: 95px;
+    margin: 15px;
+    background-size: contain;
+}
