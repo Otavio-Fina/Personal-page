@@ -1,14 +1,14 @@
-{
-  "compilerOptions": {
-    "allowSyntheticDefaultImports": true,
-    "noImplicitAny": true,
-    "target": "es5",
-    "allowJs": true,
-    "sourceMap": true,
-    "jsx": "react",
-    "module": "commonjs",
+//{
+//  "compilerOptions": {
+//    "allowSyntheticDefaultImports": true,
+//    "noImplicitAny": true,
+//    "target": "es5",
+//    "allowJs": true,
+//    "sourceMap": true,
+//    "jsx": "react",
+/*    "module": "commonjs",
   },
-  "files": ["src/index.tsx"],
-  "include": ["src/**/*"],
-  "exclude": ["node_modules", "**/*.spec.ts"]
-}
+  "files": ["src/index.ts"],*/
+//  "include": ["src/**/*", "src/*"],
+//  "exclude": ["node_modules", "**/*.spec.ts"]
+//}
