@@ -260,7 +260,7 @@ main a.div-texto-especifico:hover {
 
 #meus-projetos .card {
     width: 250px;
-    height: 125px;
+    height: 135px;
     background: #323443;
     margin: 15px;
 }
@@ -282,7 +282,37 @@ main a.div-texto-especifico:hover {
 #primeiro-projeto-destaque, #segundo-projeto-destaque {
     background-color: #272727;
     width: 220px;
-    height: 95px;
+    height: 105px;
     margin: 15px;
     background-size: contain;
+}
+
+#primeiro-p-destaque, #segundo-p-destaque {
+    padding: 25px;
+    text-align: center;
+}
+
+#primeiro-h3-destaque, #segundo-h3-destaque {
+    text-align: center;
+    padding-top: 10px;
+    margin: 5px;
+    font-size: 19px;
+}
+
+#primeiro-projeto-btn, #segundo-projeto-btn {
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    float: right;
+    margin: 5px;
+    background-image: url(../public/images/Tech-Stack-Logos/double-right-chevron-svgrepo-com.svg), linear-gradient(134.01deg, #3BF686 40.75%, #4CA9FF 90.52%);
+    background-size: contain;
+    padding-left: 2px;
+    transition: width 0.1s ease-in-out, height 0.1s ease-in-out, margin 0.1s ease-in-out;
+}
+
+#primeiro-projeto-btn:hover, #segundo-projeto-btn:hover {
+    width: 25px;
+    height: 25px;
+    margin: 2.5px;
 }
