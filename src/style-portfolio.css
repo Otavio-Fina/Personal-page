@@ -322,3 +322,84 @@ main a.div-texto-especifico:hover {
 }
 
 
+
+
+
+
+
+
+/*
+
+
+A PARTE ANTERIOR FOI COPIADA DP STYLE.CSS
+
+
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#main-portfolio #h1 {
+    font-size: 35px;
+    margin-top: 50px;
+}
+
+.card {
+    grid-column: 1 / span 4;
+    width: 100% !important;
+    height: 500px !important;
+    text-align: center;
+    margin: 0 !important;
+    margin-bottom: 50px !important;
+    position: relative;
+}
+
+.card-title {
+    padding: 15px;
+}
+
+.card-text {
+    font-size: 15px;
+}
+
+.stack-badge {
+    width: 56px;
+    height: 56px;
+}
+
+.card button {
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    float: right;
+    margin: 5px;
+    background-image: url(../public/images/Tech-Stack-Logos/double-right-chevron-svgrepo-com.svg), linear-gradient(134.01deg, #3BF686 40.75%, #4CA9FF 90.52%);
+    background-size: contain;
+    padding-left: 2px;
+    transition: width 0.1s ease-in-out, height 0.1s ease-in-out, margin 0.1s ease-in-out;
+    position: absolute;
+    left: 94%;
+}
+
+.card button:hover {
+    width: 25px;
+    height: 25px;
+    margin: 2.5px;
+}
