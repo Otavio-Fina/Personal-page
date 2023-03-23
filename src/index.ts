@@ -96,13 +96,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
             cardBody2.appendChild(cardText)
             card.appendChild(cardFooter)
 
-            const btnRedirect = document.getElementsByClassName('btn')
 
-            for (let i = 0; i < btnRedirect.length; i++) {
-                btnRedirect[i].addEventListener('click', function() {
-                window.location.href = a[i].link;
-                })
-            }
 
             
 
@@ -315,8 +309,19 @@ document.addEventListener("DOMContentLoaded", (event) => {
                         break
                 }
             }
+
+
         
             document.getElementById('meus-projetos-port').appendChild(card)
+        }
+        const b = meusProjetos2.projetos
+
+        const btnRedirect = document.getElementsByClassName('btn')
+
+        for (let i = 0; i < btnRedirect.length; i++) {
+            btnRedirect[i].addEventListener('click', function() {
+            window.location.href = b[i].link;
+            })
         }
     }
 

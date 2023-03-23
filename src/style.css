@@ -322,3 +322,121 @@ main a.div-texto-especifico:hover {
 }
 
 
+
+/*
+
+
+MEDIA QUERIES
+
+
+*/
+
+@media all and (min-width: 699px) {
+
+    #section-biografia {
+        width: 600px !important;
+    }
+
+    .p-meus-projetos {
+        display: inline-block;
+    }
+
+    #container-meus-projetos h3 {
+        width: auto;
+    }
+
+    .container-texto-destaque {
+        display: grid;
+        grid-template-columns: auto;
+        justify-items: center;
+    }
+}
+
+
+
+
+
+@media all and (max-width: 575px) {
+    html, body#body {
+        width: 520px;
+        max-width: 521px;
+    }
+}
+
+
+@media all and (min-width: 1000px) {
+
+    #meus-projetos .container-meus-projetos {
+        width: 700px;
+        margin: auto;
+        
+    }
+
+    #section-sobre-mim .card, #texto-sobre-mim {
+        width: 300px;
+        font-size: 25px;
+    }
+
+    #texto-sobre-mim p {
+        font-size: 15px !important;
+    }
+
+    #section-sobre-mim .card .card-body table {
+        font-size: 11px;
+        margin-left: 15px;
+    }
+
+    #section-sobre-mim .card .card-body p {
+        font-size: 12px;
+    } 
+
+    article p {
+        font-size: 18px !important;
+    }
+
+    #img-atras-perfil, #img-perfil {
+        width: 200px;
+        height: 200px;
+    }
+
+    h1 {
+        font-size: 40px !important;
+        margin: 100px 0 !important;
+    }
+
+    #section-sobre-mim .div-img-card div, #section-sobre-mim .div-img-card {
+        width: 40px;
+        height: 40px;
+    
+    }
+
+    #section-sobre-mim .div-img-card {
+        margin: -37px auto 5px;
+
+    }
+
+    #meus-projetos .card, .meus-projetos .card {
+        width: 350px;
+        height: 180px;
+        margin: 30px;
+    }
+
+    #primeiro-projeto-destaque, #segundo-projeto-destaque {
+        width: 320px;
+        height: 150px;
+        margin: 15px;
+        background-size: contain;
+    }
+
+    main a.div-texto-especifico:hover {
+        font-size: 20px;
+    }
+
+    main .card-body a.div-texto-especifico:hover {
+        font-size: 14px;
+    }
+
+
+
+
+}
