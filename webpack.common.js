@@ -6,14 +6,17 @@ const isProduction = process.env.NODE_ENV == "production";
 
 const stylesHandler = "style-loader";
 
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+
 const config = {
-  entry: "./src/index.ts",
+  entry: path.resolve(__dirname, "src", "index.ts"),
   output: {
     path: path.resolve(__dirname, "dist"),
   },
   plugins: [
-    // Add your plugins here
-    // Learn more about plugins from https://webpack.js.org/configuration/plugins/
+    new HtmlWebpackPlugin({
+      title: 'Production',
+    }),
   ],
   module: {
     rules: [
