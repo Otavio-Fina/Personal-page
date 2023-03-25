@@ -138,6 +138,10 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
 
                     case "TYPESCRIPT":
+                        const ts_badge = document.createElement('img')
+                        ts_badge.setAttribute('src', './images/Tech-Stack-Logos/typescript.png')
+                        ts_badge.className = 'stack-badge stack-badge2'
+                        cardFooter.appendChild(ts_badge)
                         break
 
 
@@ -248,7 +252,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
                     case "VITE":
                         const vite_badge = document.createElement('img')
-                        vite_badge.setAttribute('src', './images/Tech-Stack-Logos/vite.png')
+                        vite_badge.setAttribute('src', './images/Tech-Stack-Logos/vitejs.png')
                         vite_badge.className = 'stack-badge'
                         cardFooter.appendChild(vite_badge)
                         break

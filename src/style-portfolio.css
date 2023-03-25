@@ -387,6 +387,16 @@ A PARTE ANTERIOR FOI COPIADA DP STYLE.CSS
     height: 56px;
 }
 
+.stack-badge2 {
+    width: 39px;
+    height: 39px;
+    margin: 8px;
+    border: 0.3px solid #191b1e;
+    background-color: #1d1f23;
+    padding: 8.5px;
+    border-radius: 20%;
+}
+
 .card button {
     width: 20px;
     height: 20px;

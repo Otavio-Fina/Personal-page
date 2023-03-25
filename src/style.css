@@ -382,7 +382,7 @@ MEDIA QUERIES
     }
 
     #section-sobre-mim .card .card-body table {
-        font-size: 11px;
+        font-size: 10px;
         margin-left: 15px;
     }
 
@@ -426,6 +426,10 @@ MEDIA QUERIES
         height: 150px;
         margin: 15px;
         background-size: contain;
+    }
+
+    #meus-projetos h3 {
+        padding: 20px;
     }
 
     main a.div-texto-especifico:hover {

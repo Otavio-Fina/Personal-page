@@ -6,10 +6,10 @@
             "nome": "GitHub Finder",
             "destaque1": true,
             "destaque2": false,
-            "link": "https://otavio-fina.github.io/react-github-perfil-finder/",
+            "link": "https://otavio-fina.github.io/react-github-perfil-finder/dist/",
             "imagemNome": "pj-github-finder.png",
             "descricao": "Uma SPA integrada com uma API do GitHub, de maneira que pesquisa e retorna o perfil do usuario",
-            "stacks": ["HTML", "CSS",  "JAVASCRIPT", "REACT", "GIT", "NPM", "BABEL", "VITE"]
+            "stacks": ["HTML", "CSS",  "JAVASCRIPT", "TYPESCRIPT", "REACT", "GIT", "NPM", "BABEL", "VITE"]
         },
         {
             "index": 1,
@@ -28,7 +28,7 @@
             "destaque2": false,
             "link": "https://qrcodeotavio.com/",
             "imagemNome": "pj-qrcodeotavio.png",
-            "descricao": "Um projeto super simples, sem lógica, apenas para fazer uma pagina resposiva que leva para a pargina do Front end Mentor",
+            "descricao": "Um projeto super simples, sem lógica, apenas para fazer uma pagina resposiva que leva para a pagina do Front end Mentor",
             "stacks": ["HTML", "CSS", "BOOTSTRAP", "GIT"]
         }
         
