@@ -8,7 +8,7 @@
             "destaque2": false,
             "link": "https://otavio-fina.github.io/multi-step-form-main/",
             "imagemNome": "pj-multi-step-form.png",
-            "descricao": "!!!PROJETO DESTAQUE!!! Uma SPA muito desafiadora, onde o uso do REDUX é essencial. Basicamente o projeto foi montar uma SPA de assinatura de um plano com um forms (com validação) onde as informações do forms alteravam a aplicação. O uso do REDUX foi essencial para aplicação, tanto para paginação quanto para modelagem do conteúdo de acordo com os inputs do usuário. o REACT-HOOK-FORM foi muito util para a validação. Foi muito usado SASS para estilização. tudo foi construído no ambiente VITE.",
+            "descricao": "!!!PROJETO DESTAQUE!!! Uma SPA muito desafiadora, onde o uso do REDUX é essencial. Basicamente o projeto foi montar uma SPA de assinatura de um plano com um forms (com validação) onde as informações do forms alteravam a aplicação.",
             "stacks": ["HTML", "CSS", "BOOTSTRAP", "SASS" , "JAVASCRIPT", "TYPESCRIPT", "REACT", "REDUX" , "GIT", "NPM", "BABEL", "VITE"]
         },
         {

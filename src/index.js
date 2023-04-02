@@ -156,7 +156,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
                     case "REDUX":
                         const redux_badge = document.createElement('img')
                         redux_badge.setAttribute('src', './images/Tech-Stack-Logos/redux.png')
-                        redux_badge.className = 'stack-badge'
+                        redux_badge.className = 'stack-badge stack-badge2'
                         cardFooter.appendChild(redux_badge)
                         break
 
