@@ -3,26 +3,36 @@
     [
         {
             "index": 0,
-            "nome": "GitHub Finder",
+            "nome": "Multi form Avançado",
             "destaque1": true,
             "destaque2": false,
+            "link": "https://otavio-fina.github.io/multi-step-form-main/",
+            "imagemNome": "pj-multi-step-form.png",
+            "descricao": "!!!PROJETO DESTAQUE!!! Uma SPA muito desafiadora, onde o uso do REDUX é essencial. Basicamente o projeto foi montar uma SPA de assinatura de um plano com um forms (com validação) onde as informações do forms alteravam a aplicação. O uso do REDUX foi essencial para aplicação, tanto para paginação quanto para modelagem do conteúdo de acordo com os inputs do usuário. o REACT-HOOK-FORM foi muito util para a validação. Foi muito usado SASS para estilização. tudo foi construído no ambiente VITE.",
+            "stacks": ["HTML", "CSS", "BOOTSTRAP", "SASS" , "JAVASCRIPT", "TYPESCRIPT", "REACT", "REDUX" , "GIT", "NPM", "BABEL", "VITE"]
+        },
+        {
+            "index": 1,
+            "nome": "GitHub Finder",
+            "destaque1": false,
+            "destaque2": true,
             "link": "https://otavio-fina.github.io/react-github-perfil-finder/dist/",
             "imagemNome": "pj-github-finder.png",
             "descricao": "Uma SPA integrada com uma API do GitHub, de maneira que pesquisa e retorna o perfil do usuario",
             "stacks": ["HTML", "CSS",  "JAVASCRIPT", "TYPESCRIPT", "REACT", "GIT", "NPM", "BABEL", "VITE"]
         },
         {
-            "index": 1,
+            "index": 2,
             "nome": "Cartão de Crédito Interativo",
             "destaque1": false,
-            "destaque2": true,
+            "destaque2": false,
             "link": "https://otavio-fina.github.io/Interactive-card-details-form/src",
             "imagemNome": "pj-cartao-interativo.png",
             "descricao": "Uma página responsiva de um cartão de crédito, onde os inputs atualizam a imagem do cartão. Uma validação simples foi aplicada",
             "stacks": ["HTML", "CSS", "BOOTSTRAP", "JAVASCRIPT", "REACT", "WEBPACK", "GIT", "NPM", "BABEL"]
         },
         {
-            "index": 2,
+            "index": 3,
             "nome": "QR Code Simples",
             "destaque1": false,
             "destaque2": false,
