@@ -9,7 +9,7 @@
             "link": "https://otavio-fina.github.io/multi-step-form-main/",
             "imagemNome": "pj-multi-step-form.png",
             "descricao": "!!!PROJETO DESTAQUE!!! Uma SPA muito desafiadora, onde o uso do REDUX é essencial. Basicamente o projeto foi montar uma SPA de assinatura de um plano com um forms (com validação) onde as informações do forms alteravam a aplicação.",
-            "stacks": ["HTML", "CSS", "BOOTSTRAP", "SASS" , "JAVASCRIPT", "TYPESCRIPT", "REACT", "REDUX" , "GIT", "NPM", "BABEL", "VITE"]
+            "stacks": ["HTML", "CSS", "BOOTSTRAP", "SASS" , "JAVASCRIPT", "TYPESCRIPT", "REACT", "REDUX" , "GIT", "NPM", "VITE"]
         },
         {
             "index": 1,
